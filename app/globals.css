@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-container {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.p-container {
+  @apply px-6 md:px-10 lg:px-20;
+}
+
+.flexCenter {
+  @apply flex justify-center;
+}
+.flexBetween {
+  @apply flex justify-between;
+}
