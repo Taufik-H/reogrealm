@@ -6,8 +6,15 @@ import Button from "./Button";
 const About = () => {
   return (
     <section className="p-container max-container py-10">
-      <div className="flexBetween  flex-col-reverse gap-5">
-        <div className="">
+      <div className="flexBetween  flex-col-reverse gap-5 md:flex-row md:items-center">
+        <div className="lg:w-6/12 p-5 relative flex justify-center items-center">
+          <Image
+            src={"/pattern.svg"}
+            height={1000}
+            width={1000}
+            alt="about-image"
+            className="object-cover object-center absolute top-0 -z-10"
+          />
           <Image
             src={"/imageabout.svg"}
             height={1000}
@@ -16,7 +23,7 @@ const About = () => {
             className="object-contain"
           />
         </div>
-        <div className="">
+        <div className="lg:w-6/12">
           <p className="text-red-500 font-semibold capitalize">about</p>
           <h2 className="text-3xl font-bold">
             Tentang{" "}
@@ -24,7 +31,7 @@ const About = () => {
               ReogRealm
             </span>
           </h2>
-          <p className="mb-5 text-justify text-xs text-slate-500">
+          <p className="mb-5 text-justify text-xs md:text-md text-slate-500">
             Kami adalah komunitas yang tumbuh dengan cinta dan dedikasi terhadap
             seni tradisional Reog Ponorogo. Sejak 2023, kami telah berkomitmen
             untuk melestarikan, mempromosikan, dan mengembangkan kekayaan budaya
