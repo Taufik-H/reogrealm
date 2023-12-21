@@ -19,6 +19,7 @@ const Blog = () => {
         {BLOGS.map((blog, index) => (
           <div key={index}>
             <CardBlog
+              image={blog.image}
               date={blog.date}
               title={blog.title}
               year={blog.year}

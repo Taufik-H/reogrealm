@@ -1,11 +1,13 @@
+import Image from "next/image";
 import React from "react";
 type CardBlogProps = {
   title: string;
   desc: string;
   date: string;
   year: string;
+  image: string;
 };
-const CardBlog = ({ title, desc, date, year }: CardBlogProps) => {
+const CardBlog = ({ title, desc, date, year, image }: CardBlogProps) => {
   return (
     <div>
       <article className="flex bg-white transition hover:shadow-xl">
@@ -18,9 +20,11 @@ const CardBlog = ({ title, desc, date, year }: CardBlogProps) => {
         </div>
 
         <div className="hidden sm:block sm:basis-56">
-          <img
-            alt="Guitar"
-            src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          <Image
+            src={image}
+            height={100}
+            width={100}
+            alt="blog"
             className="aspect-square h-full w-full object-cover"
           />
         </div>
@@ -39,9 +43,9 @@ const CardBlog = ({ title, desc, date, year }: CardBlogProps) => {
           <div className="sm:flex sm:items-end sm:justify-end">
             <a
               href="#"
-              className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+              className="block bg-red-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-red-400"
             >
-              Read Blog
+              Baca Artikel
             </a>
           </div>
         </div>

@@ -59,18 +59,21 @@ export const EVENTS = [
 
 export const BLOGS = [
   {
+    image: "event4.svg",
     title: "Reog",
     desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
     date: "21 Dec",
     year: "2023",
   },
   {
+    image: "event4.svg",
     title: "Reog",
     desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
     date: "21 Dec",
     year: "2023",
   },
   {
+    image: "event2.svg",
     title: "Reog",
     desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
     date: "21 Dec",
