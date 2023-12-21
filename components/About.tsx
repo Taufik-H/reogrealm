@@ -5,9 +5,17 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="p-container max-container">
-      <div className="flexBetween flex-col">
-        <div className=""></div>
+    <section className="p-container max-container py-10">
+      <div className="flexBetween  flex-col-reverse gap-5">
+        <div className="">
+          <Image
+            src={"/imageabout.svg"}
+            height={1000}
+            width={1000}
+            alt="about-image"
+            className="object-contain"
+          />
+        </div>
         <div className="">
           <p className="text-red-500 font-semibold capitalize">about</p>
           <h2 className="text-3xl font-bold">
@@ -34,9 +42,9 @@ const About = () => {
               </p>
             </div>
           ))}
-        </div>
-        <div className="my-5">
-          <Button href="#" label="Gabung komunitas" icon="/arrow.svg" />
+          <div className="my-5">
+            <Button href="#" label="Gabung komunitas" icon="/arrow.svg" />
+          </div>
         </div>
       </div>
     </section>
