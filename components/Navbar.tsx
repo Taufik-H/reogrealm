@@ -26,9 +26,6 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="hidden lg:flex ">
-          <Button variant={"ghost"} className="text-red-500">
-            Login
-          </Button>
           <Button className="rounded-full bg-red-500  text-white shadow-lg hover:bg-red-600 hover:text-white transition-all duration-200 ease-in-out shadow-red-100">
             Join Komunitas
           </Button>
@@ -50,9 +47,6 @@ const Navbar = () => {
             </li>
           ))}
           <div className="flex flex-col ">
-            <Button variant={"ghost"} className="text-red-500">
-              Login
-            </Button>
             <Button className="rounded-full bg-red-500  text-white shadow-lg hover:bg-red-600 hover:text-white transition-all duration-200 ease-in-out shadow-red-100">
               Join Komunitas
             </Button>
