@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-slate-50">
+    <html lang="en" className="scroll-smooth">
+      <body className="bg-slate-50 ">
         <header className={montserrat.className}>
           <Navbar />
           <div className="overflow-hidden">

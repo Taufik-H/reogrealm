@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="mx-auto bg-red-500 rounded-2xl w-9/12 my-10 flex flex-col gap-5 p-10 justify-center items-center">
-        <p className="font-bold text-4xl w-6/12 text-center text-white">
+      <div className="mx-auto bg-slate-500 rounded-2xl w-9/12 my-10 flex flex-col gap-5 p-10 justify-center items-center">
+        <p className="font-bold lg:text-4xl lg:w-6/12 text-center text-white">
           Subscribe agar tetap update dengan info dari kami
         </p>
         <form>
@@ -28,14 +28,11 @@ const Footer = () => {
                 Subscribe
               </a>
             </div>
-            <p className="mt-3 text-sm text-gray-500">
-              No spam, unsubscribe at any time
-            </p>
           </div>
         </form>
       </div>
       <footer className="bg-red-500">
-        <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
           <div className="flex justify-center text-white font-bold text-3xl">
             ReogRealm
           </div>

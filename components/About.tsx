@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="p-container max-container py-10">
+    <section className="p-container max-container py-10" id="about">
       <div className="flexBetween  flex-col-reverse gap-5 md:flex-row md:items-center">
         <div className="lg:w-6/12 p-5 relative flex justify-center items-center">
           <Image
