@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { montserrat } from "./font";
 import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "ReogRealm",
@@ -24,6 +25,7 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

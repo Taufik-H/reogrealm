@@ -3,8 +3,6 @@ export const NAVBAR_LINK = [
   { href: "/about", label: "About", key: "about" },
   { href: "/events", label: "Events", key: "events" },
   { href: "/blog", label: "Blog", key: "blog" },
-  { href: "/gallery", label: "Gallery", key: "gallery" },
-  { href: "/contact", label: "Contact", key: "contact" },
 ];
 
 export const AVATAR = [
@@ -35,7 +33,7 @@ export const EVENTS = [
     title: "Perayaan Tahun baru 2024",
     desc: "event dari reogrelm beserta komunitas reog ponorogo seluruh indonesia ",
     date: "31 Desember 2023",
-    community: "ReogRealm x localyReog",
+    community: "ReogRealm Official",
     location: "Yogjakarta",
     members: "1.7k",
   },
@@ -56,5 +54,26 @@ export const EVENTS = [
     community: "ReogRealm x Reog Medan",
     location: "Medan",
     members: "400",
+  },
+];
+
+export const BLOGS = [
+  {
+    title: "Reog",
+    desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
+    date: "21 Dec",
+    year: "2023",
+  },
+  {
+    title: "Reog",
+    desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
+    date: "21 Dec",
+    year: "2023",
+  },
+  {
+    title: "Reog",
+    desc: "Reog merupakan tarian tradisional dari Ponorogo, Jawa Timur dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, dengan berat topeng mencapai 50–60 kg.",
+    date: "21 Dec",
+    year: "2023",
   },
 ];

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Event = () => {
   return (
-    <section className="p-container max-container">
+    <section className="p-container max-container my-5">
       <div className="my-5">
         <p className="font-bold text-red-500 calitalize">event</p>
         <div className="flexBetween gap-5">
