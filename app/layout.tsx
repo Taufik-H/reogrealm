@@ -19,7 +19,9 @@ export default function RootLayout({
       <body className="bg-slate-50">
         <header className={montserrat.className}>
           <Navbar />
-          <Hero />
+          <div className="overflow-hidden">
+            <Hero />
+          </div>
         </header>
         <main>{children}</main>
       </body>
