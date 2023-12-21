@@ -19,3 +19,42 @@ export const MISI = [
   { content: "inovasi seni", icon: "/check.svg" },
   { content: "keberlanjutan komunitas", icon: "/check.svg" },
 ];
+
+export const EVENTS = [
+  {
+    cover: "/event1.svg",
+    title: "Festival Akbar Reog Ponorogo",
+    desc: "Pagelaran reog nasional untuk memperingati hari besar Kabupaten Ponorogo, Jawa Timur",
+    date: "25 Desember 2023",
+    community: "ReogRealm x localyReog",
+    location: "ponorogo",
+    members: "700",
+  },
+  {
+    cover: "/event2.svg",
+    title: "Perayaan Tahun baru 2024",
+    desc: "event dari reogrelm beserta komunitas reog ponorogo seluruh indonesia ",
+    date: "31 Desember 2023",
+    community: "ReogRealm x localyReog",
+    location: "Yogjakarta",
+    members: "1.7k",
+  },
+  {
+    cover: "/event3.svg",
+    title: "Galang dana bencana alam",
+    desc: "kami selaku community management melakukan galang dana untuk korban bencana alam",
+    date: "11 Januari 2024",
+    community: "ReogRealm x ngapak",
+    location: "Purwokerto",
+    members: "400",
+  },
+  {
+    cover: "/event4.svg",
+    title: "Seminar reog ponorogo",
+    desc: "pengadaan seminar pelestarian budaya jawa",
+    date: "14 Februari 2024",
+    community: "ReogRealm x Reog Medan",
+    location: "Medan",
+    members: "400",
+  },
+];

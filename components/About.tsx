@@ -50,7 +50,7 @@ const About = () => {
             </div>
           ))}
           <div className="my-5">
-            <Button href="#" label="Gabung komunitas" icon="/arrow.svg" />
+            <Button href="#" label="Pelajari selengkapnya" icon="/arrow.svg" />
           </div>
         </div>
       </div>
