@@ -12,3 +12,10 @@ export const AVATAR = [
   { src: "/user2.svg", alt: "user2", key: "user2" },
   { src: "/user3.svg", alt: "user3", key: "user3" },
 ];
+
+export const MISI = [
+  { content: "melestarikan budaya", icon: "/check.svg" },
+  { content: "edukasi & kesadaran publik", icon: "/check.svg" },
+  { content: "inovasi seni", icon: "/check.svg" },
+  { content: "keberlanjutan komunitas", icon: "/check.svg" },
+];

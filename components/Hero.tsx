@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <Button href="#" icon="/arrow.svg" label="Join Komunitas" />
       </div>
-      <div className="relative pb-32 flexCenter ">
+      <div className="relative pb-32 lg:pb-0 flexCenter lg:justify-end ">
         <Image
           src={"/pattern.svg"}
           height={720}
@@ -56,7 +56,7 @@ const Hero = () => {
             alt="reog-1"
             className="mt-32 -ml-5"
           />
-          <div className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-10 hidden md:block ">
+          <div className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-16  hidden md:block ">
             <div className="flex gap-3 items-center">
               <Image
                 src={"/macan.svg"}

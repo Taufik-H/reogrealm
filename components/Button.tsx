@@ -9,7 +9,7 @@ type ButtonProps = {
 
 const Button = ({ href, label, icon }: ButtonProps) => {
   return (
-    <div className="flex gap-3 bg-red-500 text-white rounded-full py-3 px-5 w-fit mx-auto lg:mx-0">
+    <div className="flex gap-3 bg-red-500 text-white rounded-full py-3 px-5 w-fit lg:mx-0">
       <Link href={href} className="text-base">
         {label}
       </Link>
