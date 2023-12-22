@@ -5,7 +5,7 @@ type ButtonProps = {
   href: string;
   label: string;
   icon?: string;
-  dissabled: boolean;
+  dissabled?: boolean;
   className?: string;
 };
 

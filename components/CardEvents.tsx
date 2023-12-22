@@ -67,7 +67,12 @@ const CardEvents = ({
               </p>
             </div>
           </div>
-          <Button href="#" label="Detail Event" icon="/arrow.svg" />
+          <Button
+            href="#"
+            label="Detail Event"
+            icon="/arrow.svg"
+            dissabled={false}
+          />
         </div>
       </div>
     </div>
