@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className="text-xs lg:text-md text-slate-500 text-[14px] lg:w-11/12 leading-[21px] my-3">
             Sambutlah keajaiban seni Reog Ponorogo dengan kami di
-            <span className="font-semibold">ReogRealm</span>. Kami adalah
+            <span className="font-semibold ml-2">ReogRealm</span>. Kami adalah
             komunitas yang berkomitmen untuk melestarikan dan memajukan seni
             tradisional yang kaya ini. Bersama, kita akan mengeksplorasi dan
             merayakan keindahan budaya Indonesia.
