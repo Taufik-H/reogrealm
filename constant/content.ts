@@ -1,5 +1,5 @@
 export const NAVBAR_LINK = [
-  { href: "", label: "Home", key: "home" },
+  { href: "home", label: "Home", key: "home" },
   { href: "about", label: "About", key: "about" },
   { href: "events", label: "Events", key: "events" },
   { href: "blog", label: "Blog", key: "blog" },
