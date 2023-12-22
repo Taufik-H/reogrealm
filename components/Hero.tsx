@@ -56,7 +56,7 @@ const Hero = () => {
             alt="reog-1"
             className="mt-32 -ml-5"
           />
-          <div className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-16  hidden md:block ">
+          <div className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-12  hidden md:block w-72 ">
             <div className="flex gap-3 items-center">
               <Image
                 src={"/macan.svg"}
@@ -65,24 +65,26 @@ const Hero = () => {
                 alt="profile-community"
               />
               <div className="">
-                <p className="font-semibold">RPG Community</p>
-                <p className="font-light text-xs text-slate-500">Ponorogo</p>
+                <p className="font-semibold">RRL Community</p>
+                <p className="font-light text-xs text-slate-500 mb-1">
+                  Ponorogo
+                </p>
+                <div className="flex gap-1">
+                  {Array.from(Array(5).keys()).map((item, index) => (
+                    <Image
+                      key={index}
+                      src={"/star.svg"}
+                      width={10}
+                      height={10}
+                      alt="star"
+                    />
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="mt-5 gap-3 flexBetween">
-              <div className="flex">
-                {AVATAR.map((avatar, index) => (
-                  <Image
-                    key={avatar.key}
-                    src={avatar.src}
-                    width={40}
-                    height={40}
-                    alt={avatar.alt}
-                    className={index === 0 ? "" : "-ml-3"}
-                  />
-                ))}
-              </div>
-              <Button href="#" icon="" label="Join Komunitas" />
+            <div className="mt-3 gap-3 text-xs  text-slate-600">
+              komunitas yang berkomitmen untuk melestarikan dan memajukan seni
+              tradisional yang kaya ini.
             </div>
           </div>
         </div>

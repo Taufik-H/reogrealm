@@ -46,7 +46,7 @@ const Event = () => {
           </div>
         ))}
       </div>
-      <div className="flex gap-3 capitalize items-center justify-center mt-5 lg:hidden lg:cursor-pointer">
+      <div className="flex gap-3 capitalize items-center justify-center my-10 lg:hidden lg:cursor-pointer">
         Eksplor Event Kami{" "}
         <div className="bg-red-500 h-fit p-4 rounded-xl">
           <Image
