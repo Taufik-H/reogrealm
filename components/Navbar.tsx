@@ -15,10 +15,12 @@ const Navbar = () => {
           ReogRealm
         </Link>
         <ul className="gap-10 hidden lg:flex">
-          {NAVBAR_LINK.map((link) => (
+          {NAVBAR_LINK.map((link, index) => (
             <li key={link.key}>
               <Link
-                className="text-slate-600 hover:text-red-500 transition-all ease-in-out duration-200 text-sm hover:font-medium"
+                className={`${
+                  index == NAVBAR_LINK.length ? "text-red-500" : ""
+                } text-slate-600 hover:text-red-500 transition-all ease-in-out duration-200 text-sm hover:font-medium`}
                 href={`#${link.href}`}
               >
                 {link.label}

@@ -1,12 +1,18 @@
+"use client";
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
-import { AVATAR } from "@/constant/content";
 
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="max-container p-container flex-col  lg:flex-row flexCenter items-center  my-20 ">
-      <div className="lg:w-8/12 text-center lg:text-left w-full flexCenter flex-col">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.2, ease: "easeInOut" }}
+        className="lg:w-8/12 text-center lg:text-left w-full flexCenter flex-col"
+      >
         <div className="uppercase mt-10 mb-5  font-semibold text-xs  flexCenter flex-col lg:justify-start  lg:flex-row text-red-500 tracking-[5px]  flex items-center">
           indonesian culturity <hr className="w-12 border-red-500" />
         </div>
@@ -28,7 +34,7 @@ const Hero = () => {
           </p>
         </div>
         <Button href="#" icon="/arrow.svg" label="Join Komunitas" />
-      </div>
+      </motion.div>
       <div className="relative pb-32 lg:pb-0 flexCenter lg:justify-end ">
         <Image
           src={"/pattern.svg"}
@@ -37,7 +43,12 @@ const Hero = () => {
           alt="bg-pattern"
           className=""
         />
-        <div className="absolute top-[20px] left-[-100px] md:left-[100px] md:right-0 lg:left-0 flex">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          className="absolute top-[20px] left-[-100px] md:left-[100px] md:right-0 lg:left-0 flex"
+        >
           <Image
             src={"/lion1.svg"}
             width={283.72}
@@ -45,10 +56,15 @@ const Hero = () => {
             alt="reog-1"
             className="lg:-mt-20"
           />
-          <p className="hidden md:flex gap-2 text-[12px] absolute right-[100px] lg:right-[15px] top-16 bg-white p-3 shadow-2xl shadow-slate-200  rounded-full">
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            className="hidden md:flex gap-2 text-[12px] absolute right-[100px] lg:right-[15px] top-16 bg-white p-3 shadow-2xl shadow-slate-200 rounded-full"
+          >
             Trusted community website{" "}
             <Image src={"/trusted.svg"} width={20} height={20} alt="trusted" />
-          </p>
+          </motion.div>
           <Image
             src={"/lion2.svg"}
             width={283.72}
@@ -56,7 +72,12 @@ const Hero = () => {
             alt="reog-1"
             className="mt-32 -ml-5"
           />
-          <div className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-12  hidden md:block w-72 ">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            className="absolute bottom-0 bg-white rounded-3xl shadow-xl p-4 -left-12  hidden md:block w-72 "
+          >
             <div className="flex gap-3 items-center">
               <Image
                 src={"/macan.svg"}
@@ -86,8 +107,8 @@ const Hero = () => {
               komunitas yang berkomitmen untuk melestarikan dan memajukan seni
               tradisional yang kaya ini.
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );
