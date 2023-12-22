@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head></head>
       <body className="bg-slate-50 ">
         <header className={montserrat.className}>
           <Navbar />
