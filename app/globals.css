@@ -5,6 +5,9 @@
 .max-container {
   @apply max-w-[1440px] mx-auto;
 }
+.padding-container {
+  @apply px-6  lg:px-20;
+}
 
 .p-container {
   @apply px-6 md:px-10 lg:px-20;
@@ -15,4 +18,29 @@
 }
 .flexBetween {
   @apply flex justify-between;
+}
+.bgProjects {
+  background-image: url("/bgproject.svg");
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgFooter {
+  background-image: url("/footerbg.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    @apply scroll-smooth;
+  }
+  body {
+    @apply scroll-smooth;
+    @apply bg-background text-foreground;
+  }
 }

@@ -1,34 +1,39 @@
 import React from "react";
+
+import PageTitle from "./PageTitle";
 import CardBlog from "./CardBlog";
-import { BLOGS } from "@/constant/content";
 
 const Blog = () => {
   return (
-    <div
-      className="p-container max-container my-10 bg-slate-200 py-10"
+    <section
       id="blog"
+      className="bgProjects max-container padding-container py-10"
     >
-      <p className="text-red-500 font-semibold capitalize">blogs</p>
-      <h3 className="text-3xl lg:w-3/12 font-bold">
-        Baca <span>Artikel</span> seputar{" "}
-        <span className="text-transparent bg-gradient-to-t from-red-500 to-yellow-400 bg-clip-text">
-          reog ponorogo
-        </span>
-      </h3>
-      <div className="flex flex-col md:flex-row gap-2 mt-5">
-        {BLOGS.map((blog, index) => (
-          <div key={index}>
-            <CardBlog
-              image={blog.image}
-              date={blog.date}
-              title={blog.title}
-              year={blog.year}
-              desc={blog.desc}
-            />
-          </div>
-        ))}
+      <PageTitle subtitle="Artikel terbaru dari ReogRealm" title="blog" />
+      <div className="my-10 flex flex-col gap-5 lg:flex-row justify-center items-center">
+        <CardBlog
+          dissabled={false}
+          image="/event4.svg"
+          href="/blog"
+          title="Reog Ponorogo"
+          alt="Reog Ponorogo"
+        />
+        <CardBlog
+          image="/event1.svg"
+          href="#"
+          title="Recapt Event ReogRealm"
+          alt="Recapt Event ReogRealm"
+          dissabled={true}
+        />
+        <CardBlog
+          dissabled={true}
+          image="/event3.svg"
+          href="#"
+          title="Perkembangan budaya Indonesia"
+          alt="Perkembangan budaya Indonesia"
+        />
       </div>
-    </div>
+    </section>
   );
 };
 
