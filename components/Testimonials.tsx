@@ -20,9 +20,12 @@ const Testimonials = () => {
   return (
     <section className="max-container padding-container my-20">
       <div className="flexCenter flex-col items-center my-10">
-        <p className="uppercase font-semibold text-rose-500">testimonials</p>
+        <p className="capitalize font-semibold text-rose-500">testimonials</p>
         <h3 className="font-bold text-3xl text-center capitalize text-slate-900">
-          what people say about me?
+          Pendapat orang tentang{" "}
+          <span className="bg-gradient-to-t from-red-500 to-yellow-400 text-transparent bg-clip-text ">
+            ReogRealm
+          </span>
         </h3>
       </div>
       <motion.div

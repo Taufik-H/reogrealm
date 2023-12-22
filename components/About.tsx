@@ -31,13 +31,13 @@ const About = () => {
               ReogRealm
             </span>
           </h2>
-          <p className="mb-5 text-justify text-xs md:text-md text-slate-500">
+          <p className="mb-5 text-justify text-xs md:text-md text-slate-900">
             Kami adalah komunitas yang tumbuh dengan cinta dan dedikasi terhadap
             seni tradisional Reog Ponorogo. Sejak 2023, kami telah berkomitmen
             untuk melestarikan, mempromosikan, dan mengembangkan kekayaan budaya
             ini agar tetap hidup dan dinikmati oleh generasi masa depan.
           </p>
-          <hr />
+          <hr className="border-slate-300" />
           <h3 className="my-5 text-lg font-bold bg-gradient-to-t from-red-500 to-yellow-400 bg-clip-text text-transparent">
             Misi kami
           </h3>
@@ -50,7 +50,12 @@ const About = () => {
             </div>
           ))}
           <div className="my-5">
-            <Button href="#" label="Pelajari selengkapnya" icon="/arrow.svg" />
+            <Button
+              href="#"
+              label="Pelajari selengkapnya"
+              icon="/arrow.svg"
+              dissabled={false}
+            />
           </div>
         </div>
       </div>

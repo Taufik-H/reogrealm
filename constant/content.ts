@@ -85,33 +85,33 @@ export const Testimoni = [
   {
     id: 1,
     name: "John Doe",
-    title: "UI/UX Designer",
+    title: "Community member",
     image: "/user1.png",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
+      "Terimakasih ReogRealm dengan adanya komunitas ini reog ponorogo bisa lebih menunjukan dirinya ke dunia.",
   },
   {
     id: 2,
     name: "Jenita",
-    title: "Web Developer",
+    title: "Public Relation",
     image: "/user2.png",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates  adipisicing elit. Quisquam, voluptates.",
+      "Event yang diadakan selalu  ramai dan mengasikan semoga kedepannya bisa menjangkau lebih banyak komunitas.",
   },
   {
     id: 3,
-    name: "Samuel Alexandra",
-    title: "UI/UX Designer",
+    name: "Adam Kuncoro",
+    title: "LocalyReog Founder",
     image: "/user3.png",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. adipisicing elit. Quisquam, voluptates adipisicing elit. Quisquam, voluptates",
+      "Terimakasih kolaborasinya reogrealm dan localyReog semoga kedepannya bisa lebih baik lagi.",
   },
   {
     id: 4,
     name: "Alex Napoleon",
-    title: "Web Developer",
+    title: "Member",
     image: "/user4.png",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisicing elit. Quisquam, voluptates adipisicing elit. Quisquam, voluptates adipisicing elit. Quisquam, voluptates voluptates.",
+      "Event besar yang diadakan sangat seru harapannya komunitas ini dapat terus berjalan hingga anak cucu",
   },
 ];
