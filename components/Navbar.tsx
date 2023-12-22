@@ -19,7 +19,6 @@ const Navbar = () => {
               <Link
                 className="text-slate-600 hover:text-red-500 transition-all ease-in-out duration-200 text-sm hover:font-medium"
                 href={`#${link.href}`}
-                onClick={() => setOpen(!isOpen)}
               >
                 {link.label}
               </Link>
@@ -42,6 +41,7 @@ const Navbar = () => {
               <Link
                 className="text-slate-600 hover:text-red-500 transition-all ease-in-out duration-200 text-sm hover:font-medium"
                 href={`#${link.href}`}
+                onClick={() => setOpen(!isOpen)}
               >
                 {link.label}
               </Link>
