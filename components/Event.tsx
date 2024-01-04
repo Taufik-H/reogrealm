@@ -1,7 +1,8 @@
+"use client";
 import React from "react";
 import CardEvents from "./CardEvents";
 import { EVENTS } from "@/constant/content";
-import { it } from "node:test";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Event = () => {
@@ -33,7 +34,16 @@ const Event = () => {
       </div>
       <div className="grid md:grid-cols-2 gap-3 lg:grid-cols-4">
         {EVENTS.map((item, index) => (
-          <div key={index}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.5 + index * 0.1,
+              ease: "easeInOut",
+            }}
+            key={index}
+          >
             <CardEvents
               cover={item.cover}
               community={item.community}
@@ -43,7 +53,7 @@ const Event = () => {
               members={item.members}
               title={item.title}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
       <div className="flex gap-3 capitalize items-center justify-center my-10 lg:hidden lg:cursor-pointer">

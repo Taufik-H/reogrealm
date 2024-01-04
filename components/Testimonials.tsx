@@ -32,16 +32,33 @@ const Testimonials = () => {
         key={currentIndex}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
         className="flexCenter flex-col items-center min-h-[300px]"
       >
-        <p className="font-bold text-2xl text-slate-700">
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          className="font-bold text-2xl text-slate-700"
+        >
           {Testimoni[currentIndex].name}
-        </p>
-        <p className="text-sm text-blue-500">{Testimoni[currentIndex].title}</p>
-        <p className="text-justify md:text-center md:w-8/12 my-5 min-h-[100px]">
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+          className="text-sm text-blue-500"
+        >
+          {Testimoni[currentIndex].title}
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+          className=" text-center md:w-5/12 my-5 min-h-[100px]"
+        >
           "{Testimoni[currentIndex].quote}"
-        </p>
+        </motion.p>
 
         <Image
           key={currentIndex}

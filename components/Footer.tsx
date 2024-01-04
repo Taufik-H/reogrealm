@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bgFooter">
-        <div className="bg-red-500 bg-opacity-90 backdrop-blur-sm">
+        <div className="bg-red-500 bg-opacity-80 backdrop-blur-sm">
           <div className="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
             <div className="flex justify-center text-white font-bold text-3xl">
               ReogRealm
@@ -141,6 +141,10 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            <p className="text-white text-center mt-5">
+              {" "}
+              &copy; 2023 ReogRealm - techcomfest - team Apapun{" "}
+            </p>
           </div>
         </div>
       </footer>
